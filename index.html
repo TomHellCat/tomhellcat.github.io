@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>My Portfolio</title>
+		<title>Work Experience</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -17,16 +17,16 @@
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Welcome to my portfolio website</h1>
+				<div id="intro">
+					<h1>Welcome to my portfolio website</h1>
+				
 					
-						
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
-	
+					<ul class="actions">
+						<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+					</ul>
+				</div>
+
+				<!-- Header -->
 					<header id="header">
 						<a href="index.html" class="logo">Portfolio</a>
 					</header>
@@ -34,8 +34,10 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="index.html">My Projects</a></li>
-							<li ><a href="aboutme.html">About Me</a></li>
+							<li class="active"><a href="index.html">Work Experience</a></li>
+							<li><a href="projects.html">My Projects</a></li>
+							
+							
 						</ul>
 						<ul class="icons">
 							<li><a href="https://github.com/TomHellCat/" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
@@ -45,120 +47,103 @@
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Featured Post -->
-							<article class="post featured">
+						<!-- Post -->
+							<section class="post">
 								<header class="major">
 									
-									<h2>Chatter</h2>
-									<p>A real time chat app built using Django, Channels and React.</p>
+									<h1>Work Experience</h1>
+									<ul>
+										<li>I am a software engineer with 1.5 years of experience. I currently work at a startup called TeamWave. We use Python-Django, Flask in the backend and AngularJS in frontend</li>
+										<li>TeamWave is a SaaS provider that makes Project Management Software(PM), Customer Relations
+											Management Software (CRM) and Human Resource Management Software(HRM). We have recently
+											added a new service called eSign which allows users to digitally sign documents.</li>
+										<li>Worked with the support team for the first six months. Fixed bugs in the backend using Python-Django
+											and in the frontend using AngularJS. Fixed customer reported bugs and built minor customer requested
+											features like import projects from excel file for the Project Management app, download reports
+											functionality for the CRM app using Django</li>
+										<li>We also have a gmail add on for our CRM app. Using typescript and with the help of a senior develper I
+											was able to bring down api calls of the addon by 40%</li>
+										<li>We also have a Forms app which allows users to create custom forms for surveys. It was built using Flask.
+											Added the functionality for users to attach small files to forms as per a customers request.</li>
+										<li>Recently we built a new app called 'eSign'. It allows users to digitally sign pdf documents. I was part of the
+											eSign backend team.</li>
+										<li>Wrote utitlity functions to add digital signatures, check box, label and date field to documents using
+											reportlab and pdf2image library for the esign app.</li>
+										<li>Wrote utility functions to upload, retrieve and download pdf documents from s3 bucket, for email and
+											in-app notifications and for displaying reports. Wrote apis for transferring data between eSign
+											microservice and the main monolith.
+										</li>
+										<li>
+											Created django models for document widgets(signature field, label field, datetime field and check box),document_contributor(user who signs the document), document logs and document pages, serializers and apis for these models.
+										</li>
+										<li>
+											Responsible for PR reviews and pushing latest changes to the staging server.
+										</li>
+									</ul>
 								</header>
-								<a href="https://github.com/TomHellCat/Chatter" class="image main"><img src="images/Chatter.png" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/TomHellCat/Chatter" class="button large">GitHub</a></li>
-								</ul>
-							</article>
-
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										
-										<h2 >Panzer Fight</h2>
-									</header>
-									<a href="https://github.com/TomHellCat/Panzer-Fight/tree/master" class="image fit"><img src="images/panzer fight1.png" alt="" width="580" height="310" style="position:relative;top:10px"/></a>
-									<p>This is a tank shooting game built using Unity game engine.</p>
-									<br>
-									<ul class="actions special">
-										<li><a href="https://github.com/TomHellCat/Panzer-Fight/tree/master" class="button"
-											>Github</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2>OnePage</h2>
-									</header>
-									<a href="https://github.com/TomHellCat/OnePage" class="image fit"><img src="images/OnePage.png" alt="" width="580" height="310"/></a>
-									<p>A Chrome extension that allows you to leave comments on any web page.</p>
-									<br>
-									<ul class="actions special">
-										<li><a href="https://github.com/TomHellCat/OnePage" class="button">Github</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2>YouTube Sentiment Analysis</h2>
-									</header>
-									<a href="https://github.com/TomHellCat/YouTube-Sentiment-Analysis" class="image fit"><img src="images/Yt1.png" alt="" width="580" height="310"/></a>
-									<p>A sentiment analysis app to find out what's popular on YouTube.</p>
+								
+							</section>
+							<section class="post">
+								<header class="major">
 									
-									<ul class="actions special">
-										<li><a href="https://github.com/TomHellCat/YouTube-Sentiment-Analysis" class="button">Github</a></li>
+									<h1>Skills</h1>
+									<ul class = "action">
+										<li>Unity3d,C#</li>
+										<li>C/C++</li>
+										<li>Python, Django, Flask, FastAPI</li>
+										<li>HTML, CSS, Javascript, Typescript, AngularJS</li>
 									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2>Cubiz</h2>
-									</header>
-									<a href="https://github.com/TomHellCat/Cubiz" class="image fit"><img src="images/cubiz.webp" alt="" width="580" height="310px" style="position:relative;top:35px;"/></a>
-									<p>This is a hypercasual game for android built using Unity3d. Collect all the coins to win. Avoid obstacles and enemies.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/TomHellCat/Cubiz" class="button">github</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2>Chattr</h2>
-									</header>
-									<a href="https://github.com/TomHellCat/Gui-Chatbot-" class="image fit"><img src="images/chattr.png" alt="" width="580" height="310"/></a>
-									<p>This is a GUI chatbot application. The GUI was built using Kivy.</p>
-									<br>
-									<ul class="actions special">
-										<li><a href="https://github.com/TomHellCat/Gui-Chatbot-" class="button">Github</a></li>
-									</ul>
-								</article>
-
-								<article>
-									<header>
-										
-										<h2>Correlator</h2>
-									</header>
-									<a href="https://github.com/TomHellCat/CorrelatorV2" class="image fit"><img src="images/correlator1.png" alt="" width="580" height="310"/></a>
-									<p>This is an app for viewing and analysing csv files. It allows you to run linear regression algorithm on the dataset , train a model and generate prediction data.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/TomHellCat/CorrelatorV2" class="button">github</a></li>
-									</ul>
-								</article>
+								</header>
 								
 							</section>
 
 					</div>
 
 				<!-- Footer -->
-					<footer id="footer">									
-							</section> 
+					<footer id="footer">
+						<!-- <section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section> -->
+						<section class="split contact">
+							
 							<section>
 								<h3>Email</h3>
-								<p>abelhevero@gmail.com</p>
+								<p><a href="#">abelhevero@gmail.com</a></p>
+							</section>
+							<section>
 								<h3>Social</h3>
 								<ul class="icons alt">
-									<!--<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>-->
 									<li><a href="https://github.com/TomHellCat/" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</section>
 						</section>
 					</footer>
 
-				<!-- Copyright -->
+					<!-- Copyright -->
 					<div id="copyright">
 						<ul><li>&copy; Dark Theme</li><li>Design: IceCakeInc</li></ul>
 					</div>
 
 			</div>
+
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -171,4 +156,3 @@
 
 	</body>
 </html>
-
